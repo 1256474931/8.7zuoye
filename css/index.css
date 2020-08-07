@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background: #041724;
+    position: relative;
+    
+}
+.top-left{
+    width: 80px;
+    height: 60px;
+    float: left;
+    
+}
+.top-left-box{
+    width: 45px;
+    height: 42.4px;
+    
+    margin: auto;
+    margin-top: 8px;
+    position: relative;
+    
+}
+.top-left-box a{
+    width: 14px;
+    height: 14px;
+    padding: 13px;
+    padding-top: 13px;
+    position: absolute;
+    
+}
+.top-center{
+    width: 140px;
+    height: 60.1px;
+    float: left;
+    position: relative;
+
+}
+.top-center a{
+    width: 100px;
+    height: 23.81px;
+    margin: auto;
+}
+.top-center img{
+    width: 100px;
+    height: 24.8px;
+    margin-left: 40px;
+    margin-top: 14px;
+}
+.top-right{
+    width: 80px;
+    height: 60px;
+    float: right;
+    
+    position: relative;
+
+}
+.top-right img{
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+
+.swiper-container {
+    width: 100%px;
+    height: 180px;
+    margin-top: .1px;
+    
+}  
+.swiper-slide img{
+    width: 100%;
+    height: 180px;
+}
+
+.list{
+    width: 100%;
+    height: 130px;
+    background: #f5f5f5;
+}
+.list-cot{
+    width: 153px;
+    height: 64.8px;
+    float: left;
+    border: .5px solid #ececec;
+    
+}
+.list-cot-box{
+    width: 111px;
+    height: 26.8px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.list-cot span{
+    font-size: 16px;
+    color: #333;
+    
+}

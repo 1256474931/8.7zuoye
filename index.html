@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+</head>
+<body>
+    <div class="top">
+        <div class="top-left">
+             <div class="top-left-box">
+                 <a href=""><img src="./img/1.png" alt=""></a>
+             </div>
+        </div>
+        <div class="top-center">
+            <div class="top-center-img">
+                <a href=""><img src="./img/3.png" alt=""></a>
+            </div>
+        </div>
+        <div class="top-right">
+            <div class="top-right-img">
+                <a href=""><img src="./img/2.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/5.jpg" alt="">
+            </div>
+            <div class="swiper-slide"><img src="./img/6.jpg" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    <script src="./js/swiper-bundle.min.js"></script> 
+
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    }
+  })       
+    </script>
+
+
+
+
+<div class="list">
+    <div class="list-cot">
+        <div class="list-cot-box">
+            <span>500+服务商</span>
+        </div>
+    </div>
+    <div class="list-cot">
+        <div class="list-cot-box">
+            <span>分公司运维</span>
+        </div>
+    </div>
+    <div class="list-cot">
+        <div class="list-cot-box">
+            <span>多元化系统</span>
+        </div>
+    </div>
+    <div class="list-cot">
+        <div class="list-cot-box">
+            <span>智慧生活平台</span>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+</body>
+
+</html>
